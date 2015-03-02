@@ -3,7 +3,12 @@
 This script can be used together with the buzzer
 from http://www.f-pro.de/buzzer to trigger 
 a deployment job. The script will verify several
-Build Jobs Results before triggering the deployment job.
+Build Job Results before triggering the deployment job.
+
+In my local setup I have a Jenkins Deployment Pipeline
+consisting of four jobs (see screenshots). This script checks the status
+of each job before triggering the deployment job. 
+
 This script is part of the Hackergarden @ JavaLand 2015
  
 ## Requirements
